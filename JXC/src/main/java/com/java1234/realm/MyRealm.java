@@ -63,6 +63,7 @@ public class MyRealm extends AuthorizingRealm{
 	/**
 	 * 权限认证
 	 */
+	//负责权限认证，也就是判断能否登陆
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
 		System.out.println("获取用户的输入账号");
